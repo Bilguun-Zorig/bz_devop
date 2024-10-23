@@ -181,48 +181,41 @@
             font-size: 12px;
         }
 
-    
-            .technologies{
-                margin: 0 auto;
-                text-align: center;
-                padding: 0px 0px;
-                .skillsMain{
-                    .techDiv {
-                        width: 270px;
-                        .tech {
-                            width: 45px;
-                            max-height: 45px;
-                            display: flex;
-                            align-items: center;
-                            margin: 3px;
-                          }
-                          .techDivTitle {
-                            width: 100%;
-                            text-align: center;
-                            text-decoration: none;
-                            letter-spacing: 2px;
-                            text-transform: uppercase;
-                            font-weight: bold;
-                            font-size: 14px;
-                            background-color: #333333;
-                            color: white;
-                            padding: 5px;
-                          }
-                          
-                          .tech img {
-                            width: 45px;
-                            max-height: 51px;
-                          }
-                          .tooltip span, .techDivTitle{
-                            font-size: 12px;
-                          }
-                    }
-                }
-
+        .technologies{
+            margin: 0 auto;
+            text-align: center;
+            padding: 0px 0px;
             
-    
+            .techDiv {
+                width: 270px;
+                .tech {
+                    width: 45px;
+                    max-height: 45px;
+                    display: flex;
+                    align-items: center;
+                    margin: 3px;
+                  }
+                  .techDivTitle {
+                    width: 100%;
+                    text-align: center;
+                    text-decoration: none;
+                    letter-spacing: 2px;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    font-size: 14px;
+                    background-color: #333333;
+                    color: white;
+                    padding: 5px;
+                  }
+                  
+                  .tech img {
+                    width: 45px;
+                    max-height: 51px;
+                  }
             }
         
+
+        }
 
         .skillList{
             max-width: fit-content;
